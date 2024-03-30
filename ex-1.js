@@ -3,8 +3,8 @@ let hasCriminalBlacklist;
 
 let isAllow;
 
-isOver18 = true;
-hasCriminalBlacklist = true;
-isAllow = isOver18 && hasCriminalBlacklist;
+isOver18 = false;
+hasCriminalBlacklist = false;
+isAllow = isOver18 && !hasCriminalBlacklist;
 
 console.log(isAllow);
